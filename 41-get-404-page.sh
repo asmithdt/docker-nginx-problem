@@ -4,4 +4,4 @@
 
 set -e
 
-curl -s "https://raw.githubusercontent.com/pkfrom/404/gh-pages/404.html" -o /var/www/nginx/errors/404.html
+curl -s "https://raw.githubusercontent.com/asmithdt/docker-nginx-problem/main/404.html" -o /var/www/nginx/errors/404.html
