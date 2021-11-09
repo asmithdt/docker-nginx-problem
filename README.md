@@ -5,7 +5,7 @@ This repository contains a Dockerfile which extends the official nginx container
 Bouncer's resposibilities are:
 
 * Redirecting a HTTP request to HTTPS via a 301 redirect
-* Returning a custom 404 page
+* Returning a custom 404 page **
 
 There are multiple issues to be found with this repository, you are tasked with fixing the problems with this container and writing up your findings as to why it was broken. Please also write any observations about the implementation of this microservice that could be problematic. To make changes you will need to rebuild the image before running it again. 
 
@@ -27,5 +27,9 @@ To spawn a shell in a running container:
 `docker exec <container id/name> --interactive --tty /bin/bash` - this will insert you into a shell on the running container
 
 ## Requirements:
+
 * The container requires internet access to run
 * Online nginx configuration documentation or other websites may be helpful to resolve it
+
+** Custom 404 page should look like this:
+![404](./404.png)
