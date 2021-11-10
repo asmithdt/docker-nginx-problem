@@ -24,7 +24,7 @@ To run the container in the background:
 To spawn a shell in a running container:
 
 `docker ps` - this will show running containers
-`docker exec <container id/name> --interactive --tty /bin/bash` - this will insert you into a shell on the running container
+`docker exec --interactive --tty <container id/name> /bin/bash` - this will insert you into a shell on the running container
 
 ## Requirements:
 
